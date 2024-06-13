@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: webapiargocd
-        image: cloudconnecthub/webapiargocd:1.0
+        image: cloudconnecthub/webapiargocd:latest
         ports:
         - containerPort: 80
